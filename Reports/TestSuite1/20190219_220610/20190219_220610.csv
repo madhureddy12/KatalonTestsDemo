@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-02-19 22:06:12,2019-02-19 22:06:16,3.835s,PASSED
+,,,,,,
+Test Cases/Day1/Test1,,,2019-02-19 22:06:13,2019-02-19 22:06:16,3.411s,PASSED
+"sendRequest(findTestObject(""SOAP/GetBankDetails""))",,,2019-02-19 22:06:13,2019-02-19 22:06:16,2.709s,PASSED
+"sendRequest(findTestObject(""REST/GetCustomerDetails""))",,,2019-02-19 22:06:16,2019-02-19 22:06:16,0.344s,PASSED

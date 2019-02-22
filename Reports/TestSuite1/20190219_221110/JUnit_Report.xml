@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="3" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="3" timestamp="2019-02-19 22:11:13" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_API_Feb2019\\Reports\\TestSuite1\\20190219_221110"/>
+         <property name="logFiles" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_API_Feb2019\\Reports\\TestSuite1\\20190219_221110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Day1/Test1" classname="Test Cases/Day1/Test1" status="PASSED">
+         <system-out><![CDATA[2019-02-19 22:11:13 - [TEST_CASE][PASSED] - Test Cases/Day1/Test1: Test Cases/Day1/Test1
+
+2019-02-19 22:11:13 - [TEST_STEP][PASSED] - sendRequest(findTestObject("SOAP/GetBankDetails")): Send request successfully
+
+2019-02-19 22:11:16 - [MESSAGE][INFO] - HAR: D:\Desktop\Projects\KatalonStudio\DemoProject_API_Feb2019\Reports\TestSuite1\20190219_221110\requests\main\0.har
+
+2019-02-19 22:11:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 22:11:16 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REST/GetCustomerDetails")): Send request successfully
+
+2019-02-19 22:11:16 - [MESSAGE][INFO] - HAR: D:\Desktop\Projects\KatalonStudio\DemoProject_API_Feb2019\Reports\TestSuite1\20190219_221110\requests\main\1.har
+
+2019-02-19 22:11:16 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 22:11:13 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Day1/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
