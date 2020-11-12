@@ -12,9 +12,9 @@ spec:
     image: katalonstudio/katalon
     imagePullPolicy: Always
     resources:
-       requests:
-         cpu: "4"
-         memory: "4Gi"
+      requests:
+        cpu: "4"
+        memory: "4Gi"
     command:
     - cat
     tty: true
